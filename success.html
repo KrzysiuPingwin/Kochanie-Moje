@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I Knew It!</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            color: white;
+            /* ANIMOWANY GRADIENT */
+            background: linear-gradient(-45deg, #ff758c, #ff7eb3, #667eea, #764ba2);
+            background-size: 400% 400%;
+            animation: gradientMove 8s ease infinite;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 30px;
+        }
+
+        img {
+            max-width: 350px;
+            border-radius: 12px;
+        }
+
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>I Knew It!</h1>
+    <img src="gif2.gif" alt="celebration gif">
+    <div>
+        <small>I Love You Too! ❤😘</small>
+    </div>
+
+</body>
+</html>
